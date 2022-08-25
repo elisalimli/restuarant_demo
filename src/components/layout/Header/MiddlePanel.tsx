@@ -29,18 +29,11 @@ const MiddlePanel = () => {
             key={`${href}${label}`}
             href={href}
             className={clsxm(
-              'group rounded-lg p-2 transition-all duration-300 hover:bg-primary',
+              'animated-underline group p-2',
               isActive && 'bg-primary'
             )}
           >
-            <li
-              className={clsxm(
-                'text-gray group-hover:text-white2',
-                isActive && 'text-white2'
-              )}
-            >
-              {label}
-            </li>
+            <li className={clsxm('text-gray')}>{label}</li>
           </UnstyledLink>
         );
       })}

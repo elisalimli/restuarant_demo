@@ -23,11 +23,7 @@ module.exports = {
         //   800: 'rgb(var(--tw-color-primary-800) / <alpha-value>)',
         //   900: 'rgb(var(--tw-color-primary-900) / <alpha-value>)',
         // },
-        primary: '#FF6C44', //orange
-        orange: '#FFA133',
-        lightOrange: '#FFA133',
-        lightOrange2: '#FDDED4',
-        lightOrange3: '#FFD9AD',
+
         green: '#27AE60',
         red: '#FF1717',
         blue: '#0064C0',
