@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Header from '@/components/layout/Header';
+
 /**
  * SVGR Support
  * Caveat: No React Props Type.
@@ -12,22 +14,10 @@ import React from 'react';
 // Before you begin editing, follow all comments with `STARTERCONF`,
 // to customize the default configuration.
 
-const Test = ({ children }) => {
-  return (
-    <div>
-      yay!
-      {children}
-    </div>
-  );
-};
-
 export default function HomePage() {
   return (
     <div>
-      Hello world
-      <Test>
-        <div className='text-red-700'>salam</div>
-      </Test>
+      <Header />
     </div>
   );
 }
