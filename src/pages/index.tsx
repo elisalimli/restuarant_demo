@@ -1,6 +1,8 @@
 import React from 'react';
 
+import Button from '@/components/buttons/Button';
 import Header from '@/components/layout/Header';
+import NextImage from '@/components/NextImage';
 
 /**
  * SVGR Support
@@ -18,6 +20,7 @@ export default function HomePage() {
   return (
     <div>
       <Header />
+      <Hero />
     </div>
   );
 }

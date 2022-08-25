@@ -30,7 +30,7 @@ const MiddlePanel = () => {
             href={href}
             className={clsxm(
               'animated-underline group p-2',
-              isActive && 'bg-primary'
+              isActive && 'bg-primary animated-underline-active'
             )}
           >
             <li className={clsxm('text-gray')}>{label}</li>

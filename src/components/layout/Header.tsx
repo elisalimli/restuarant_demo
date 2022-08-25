@@ -6,7 +6,7 @@ import Logo from '@/components/Logo';
 
 export default function Header() {
   return (
-    <header className='sticky top-0 z-50 bg-white shadow-lg'>
+    <header className='z-50 mt-5 bg-white'>
       <nav className='layout flex h-14 items-center justify-between'>
         <Logo />
         <MiddlePanel />
