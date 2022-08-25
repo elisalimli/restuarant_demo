@@ -1,8 +1,7 @@
 import React from 'react';
 
-import Button from '@/components/buttons/Button';
 import Header from '@/components/layout/Header';
-import NextImage from '@/components/NextImage';
+import Hero from '@/components/pages/Home/Hero';
 
 /**
  * SVGR Support
