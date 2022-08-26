@@ -14,7 +14,7 @@ const Icon = React.forwardRef<HTMLButtonElement, IconProps>(
         type='button'
         disabled={disabled}
         className={clsxm(
-          'rounded-full bg-gray3/30 p-3 text-cyan-800 transition-all duration-200 ease-in-out hover:rotate-[360deg] hover:bg-primary/90 hover:text-white',
+          'hover:bg-primary/90 rounded-full bg-gray3/30 p-3 text-cyan-800 transition-all duration-200 ease-in-out hover:rotate-[360deg] hover:bg-gray2',
           className
         )}
         {...rest}

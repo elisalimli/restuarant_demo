@@ -5,8 +5,8 @@ import ChefSection from '@/components/pages/Home/ChefSection';
 import DishSection from '@/components/pages/Home/DishSection';
 import Footer from '@/components/pages/Home/Footer';
 import Hero from '@/components/pages/Home/Hero';
-import PromoCodeSection from '@/components/pages/Home/PromoCodeSection';
 import ReviewSection from '@/components/pages/Home/ReviewSection';
+import Seo from '@/components/Seo';
 
 /**
  * SVGR Support
@@ -22,14 +22,19 @@ import ReviewSection from '@/components/pages/Home/ReviewSection';
 
 export default function HomePage() {
   return (
-    <div className='layout'>
+    <main className='layout'>
+      <Seo
+        date='2022-08-26T16:12:54.413Z'
+        templateTitle='Home Page'
+        description='Resto. A beautiful restaruant landing page.'
+      />
       <Header />
       <Hero />
       <DishSection />
       <ChefSection />
       <ReviewSection />
-      <PromoCodeSection />
+      {/* <PromoCodeSection /> */}
       <Footer />
-    </div>
+    </main>
   );
 }

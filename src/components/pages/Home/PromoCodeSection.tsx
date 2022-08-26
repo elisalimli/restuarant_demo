@@ -13,11 +13,11 @@ const PromoCodeSection = () => {
         alt='cafe background image'
       />
       <div className='relative flex h-full flex-col items-center justify-center rounded-3xl bg-gradient-to-t from-black/75'>
-        <h1 className='flex-wrap text-center font-bold text-white2'>
+        <h2 className='flex-wrap text-center font-bold text-white2'>
           Get Our Promo Code by
           <br />
           Subscribing To Our Newsletter
-        </h1>
+        </h2>
         <div className='mt-4'>
           <input
             type='email'

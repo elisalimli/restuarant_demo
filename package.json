@@ -24,6 +24,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-stars": "^2.2.5",
+    "sharp": "^0.30.7",
     "swiper": "^8.3.2",
     "tailwind-merge": "^1.5.1"
   },

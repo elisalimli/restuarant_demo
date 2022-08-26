@@ -20,7 +20,7 @@ const FoodListItem = () => {
       </div>
 
       <div className='mt-2 flex flex-col items-center justify-center'>
-        <h4>Fish & Veggie</h4>
+        <h3>Fish & Veggie</h3>
         <p className='mt-2 max-w-sm text-center text-darkGray'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
           convallis
