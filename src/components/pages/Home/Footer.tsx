@@ -1,11 +1,12 @@
 import React from 'react';
 
 import Logo from '@/components/Logo';
+import NextImage from '@/components/NextImage';
 
 const Footer = () => {
   return (
-    <footer className='mt-20 border-t border-t-lightGray2 bg-white p-12 shadow-xl '>
-      <div className='grid grid-cols-1 lg:grid-cols-4'>
+    <footer className='mt-20 overflow-hidden border-t border-t-lightGray2 p-12 shadow-xl '>
+      <div className='relative grid grid-cols-1 lg:grid-cols-4'>
         {/* Logo & description */}
         <div className='col-span-2'>
           <Logo />
@@ -35,6 +36,17 @@ const Footer = () => {
         </div>
         <div>bay</div>
         <div>fay</div>
+        {/* Background image - Egg Pan Illustration  */}
+        <div className='absolute top-0 left-1/4 -z-10 w-1/2 rotate-45 opacity-10'>
+          <NextImage
+            useSkeleton
+            className='w-full'
+            src='/images/outline_egg_pan.png'
+            width='180'
+            height='180'
+            alt='Icon'
+          />
+        </div>
       </div>
     </footer>
   );
