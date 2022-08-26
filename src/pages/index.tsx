@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '@/components/layout/Header';
+import ChefSection from '@/components/pages/Home/ChefSection';
 import DishSection from '@/components/pages/Home/DishSection';
 import Hero from '@/components/pages/Home/Hero';
 
@@ -22,6 +23,7 @@ export default function HomePage() {
       <Header />
       <Hero />
       <DishSection />
+      <ChefSection />
     </div>
   );
 }

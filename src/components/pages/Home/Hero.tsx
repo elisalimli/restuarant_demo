@@ -44,7 +44,7 @@ const Hero = () => {
           src='/images/home-img-2.png'
           width='180'
           height='180'
-          alt='Icon'
+          alt='Hero food image'
         />
       </div>
     </section>
