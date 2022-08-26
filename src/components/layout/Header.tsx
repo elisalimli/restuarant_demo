@@ -7,7 +7,7 @@ import GlowingEffect from '@/components/pages/Home/GlowingEffect';
 
 export default function Header() {
   return (
-    <header className='z-50 mt-5 bg-white'>
+    <header className='z-50 mt-5'>
       <nav className='layout flex h-14 items-center justify-between'>
         <GlowingEffect />
         <Logo />
