@@ -9,7 +9,7 @@ const Hero = () => {
       <div className='flex flex-col space-x-4 lg:flex-row'>
         <div className='flex-[4] '>
           {/* Header */}
-          <h2 className='h0 font-normal'>Provide the best food for you.</h2>
+          <h1 className='h0 font-normal'>Provide the best food for you.</h1>
           {/* Description */}
           <p className='mt-6 max-w-xl text-darkGray'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur

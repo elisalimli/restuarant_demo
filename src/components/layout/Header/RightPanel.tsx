@@ -8,6 +8,7 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 
 const right_icons = [
   {
+    // This is an invalid phone number
     href: 'tel:+15005550001',
     icon: BsFillTelephoneFill,
     ariaLabel: 'Phone Number',
@@ -23,16 +24,18 @@ const right_icons = [
 const RightPanel = () => {
   return (
     <ul className='flex items-center justify-between space-x-4'>
-      <Icon className='lg:hidden'>
-        <AiOutlineMenu />
-      </Icon>
+      <li>
+        <Icon aria-label='Menu' title='Open Menu' className='lg:hidden'>
+          <AiOutlineMenu />
+        </Icon>
+      </li>
       {right_icons.map(({ href, icon: LinkIcon, ariaLabel }, index) => (
         <li key={`${href}${index}`}>
           {/* <UnstyledLink href={href} className='hover:text-gray-600'>
                 {label}
               </UnstyledLink> */}
 
-          <UnstyledLink href={href}>
+          <UnstyledLink tabIndex={-1} href={href}>
             <Icon aria-label={ariaLabel} type='button' title={ariaLabel}>
               <LinkIcon />
             </Icon>

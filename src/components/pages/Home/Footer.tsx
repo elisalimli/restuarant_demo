@@ -14,7 +14,7 @@ const Footer = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             bibendum scelerisque magna eget suscipit. Aenean sed est massa.
           </p>
-          <h5 className='mt-4 mb-2 font-semibold'>Opening hours</h5>
+          <h4 className='mt-4 mb-2 text-sm font-semibold'>Opening hours</h4>
           <table className='w-full'>
             <thead>
               <tr>
