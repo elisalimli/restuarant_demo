@@ -3,7 +3,9 @@ import React from 'react';
 import Header from '@/components/layout/Header';
 import ChefSection from '@/components/pages/Home/ChefSection';
 import DishSection from '@/components/pages/Home/DishSection';
+import Footer from '@/components/pages/Home/Footer';
 import Hero from '@/components/pages/Home/Hero';
+import PromoCodeSection from '@/components/pages/Home/PromoCodeSection';
 import ReviewSection from '@/components/pages/Home/ReviewSection';
 
 /**
@@ -26,6 +28,8 @@ export default function HomePage() {
       <DishSection />
       <ChefSection />
       <ReviewSection />
+      <PromoCodeSection />
+      <Footer />
     </div>
   );
 }

@@ -53,8 +53,8 @@ const ReviewSection = () => {
                     arcu fringilla quam suscipit volutpat at eget ligula.
                   </p>
                 </div>
-                <div className='my-6'>
-                  <h4 className='text-center font-bold'>Elon Musk</h4>
+                <div className='my-6 flex flex-col items-center'>
+                  <strong className='text-center font-bold'>Elon Musk</strong>
                   <p>CEO & Founder, Tesla Inc.</p>
                 </div>
               </div>
