@@ -4,6 +4,7 @@ import Header from '@/components/layout/Header';
 import ChefSection from '@/components/pages/Home/ChefSection';
 import DishSection from '@/components/pages/Home/DishSection';
 import Hero from '@/components/pages/Home/Hero';
+import ReviewSection from '@/components/pages/Home/ReviewSection';
 
 /**
  * SVGR Support
@@ -24,6 +25,7 @@ export default function HomePage() {
       <Hero />
       <DishSection />
       <ChefSection />
+      <ReviewSection />
     </div>
   );
 }
