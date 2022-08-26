@@ -20,6 +20,7 @@ export default function HomePage() {
     <div>
       <Header />
       <Hero />
+      <DishSection />
     </div>
   );
 }
