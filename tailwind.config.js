@@ -40,6 +40,9 @@ module.exports = {
 
         dark: '#222222',
       },
+      backgroundImage: {
+        circle: "url('/images/circle.png')",
+      },
       keyframes: {
         flicker: {
           '0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100%': {

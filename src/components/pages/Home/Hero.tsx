@@ -40,7 +40,7 @@ const Hero = () => {
             suscipit volutpat at eget ligula.
           </p>
           {/* Action buttons */}
-          <div className='mt-6 space-x-2'>
+          <div className='mt-6 mb-4 space-x-2'>
             <Button className='rounded-tl-2xl rounded-br-2xl' variant='dark'>
               Menu
             </Button>
