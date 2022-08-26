@@ -30,6 +30,8 @@ const FoodListItem = () => {
   );
 };
 
+// todo refactor
+
 const DishSection = () => {
   return (
     <section id='dishes' className='my-40 p-2'>
@@ -44,7 +46,7 @@ const DishSection = () => {
 
       {/* Food list */}
 
-      <ul className='my-10 grid grid-cols-1 gap-4 md:grid-cols-2 2xl:grid-cols-4'>
+      <ul className='my-10 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4'>
         {[1, 1, 1, 1].map((_, index) => (
           <FoodListItem key={`home-food-list-item-${index}`} />
         ))}
