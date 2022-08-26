@@ -17,7 +17,7 @@ const Hero = () => {
           alt='Icon'
         />
       </div>
-      <div className='absolute bottom-0 -z-10 hidden lg:left-48 lg:flex'>
+      {/* <div className='absolute bottom-0 -z-10 hidden lg:left-48 lg:flex'>
         <NextImage
           useSkeleton
           className='w-32 md:w-40'
@@ -26,7 +26,7 @@ const Hero = () => {
           height='180'
           alt='Icon'
         />
-      </div>
+      </div> */}
 
       <div className='flex flex-col space-x-4 lg:flex-row'>
         <div className='flex-[4] '>
@@ -50,16 +50,24 @@ const Hero = () => {
           </div>
         </div>
         {/* Food image */}
-        <div className='relative my-8 flex flex-[3] items-center justify-center lg:mt-0'>
+        <div className='absolute top-[76%] left-5 hidden rotate-[-30deg] lg:flex'>
           <NextImage
             useSkeleton
-            className='w-full max-w-md'
-            src='/images/home-img-2.png'
+            className='w-32 md:w-40'
+            src='/images/leaf_04.png'
             width='180'
             height='180'
             alt='Icon'
           />
         </div>
+        <NextImage
+          useSkeleton
+          className='w-full max-w-md'
+          src='/images/home-img-2.png'
+          width='180'
+          height='180'
+          alt='Icon'
+        />
       </div>
     </section>
   );
