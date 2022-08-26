@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '@/components/layout/Header';
+import DishSection from '@/components/pages/Home/DishSection';
 import Hero from '@/components/pages/Home/Hero';
 
 /**
@@ -17,7 +18,7 @@ import Hero from '@/components/pages/Home/Hero';
 
 export default function HomePage() {
   return (
-    <div>
+    <div className='layout'>
       <Header />
       <Hero />
       <DishSection />

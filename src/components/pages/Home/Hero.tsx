@@ -5,29 +5,7 @@ import NextImage from '@/components/NextImage';
 
 const Hero = () => {
   return (
-    <section id='hero' className='mx-auto mt-12 max-w-5xl p-4'>
-      {/* Loaf images */}
-      <div className='absolute right-0 -z-10 hidden md:flex'>
-        <NextImage
-          useSkeleton
-          className='w-32 md:w-40'
-          src='/images/leaf_01.png'
-          width='180'
-          height='180'
-          alt='Icon'
-        />
-      </div>
-      {/* <div className='absolute bottom-0 -z-10 hidden lg:left-48 lg:flex'>
-        <NextImage
-          useSkeleton
-          className='w-32 md:w-40'
-          src='/images/leaf_02.png'
-          width='180'
-          height='180'
-          alt='Icon'
-        />
-      </div> */}
-
+    <section id='home' className='relative mx-auto mt-12 max-w-5xl p-4'>
       <div className='flex flex-col space-x-4 lg:flex-row'>
         <div className='flex-[4] '>
           {/* Header */}
