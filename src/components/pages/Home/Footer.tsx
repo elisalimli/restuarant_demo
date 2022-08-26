@@ -34,8 +34,8 @@ const Footer = () => {
             </tbody>
           </table>
         </div>
-        <div>bay</div>
-        <div>fay</div>
+        <div></div>
+        <div></div>
         {/* Background image - Egg Pan Illustration  */}
         <div className='absolute top-0 left-1/4 -z-10 w-1/2 rotate-45 opacity-10'>
           <NextImage
